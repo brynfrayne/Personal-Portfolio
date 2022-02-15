@@ -1,0 +1,22 @@
+.skills {
+    &__imgDiv {
+        justify-content: center;
+        box-sizing: border-box;
+        border-radius: 10px;
+        box-shadow: 0 1px 3px rgb(0 0 0 / 20%);
+        transition: all .2s ease-in-out;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    &__imgCard {
+        background: #dfdfdf;
+        width: 130px;
+        height: 130px;
+        align-content: center;
+        padding: 5px;
+        margin: 10px;
+    }
+    &__img {
+        width: 120px;
+    }
+}
