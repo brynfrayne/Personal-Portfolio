@@ -1,0 +1,29 @@
+.headshot{
+    width:70vw;
+}
+.social-links {
+    &__list {
+        list-style: none;
+        display: flex;
+        flex-flow: wrap;
+        padding: 0;
+    }
+    &__list-item {
+        margin-right: 1.25rem;
+        margin-top: .625rem;
+    }
+    &__link {
+        color: black;
+        font-weight: 700;
+        font-size: 1.125rem;
+    }
+}
+.subtitle {
+    color: rgba(0, 0, 0, 0.45);
+}
+.bio {
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 1.45;
+    letter-spacing: 3;
+}
