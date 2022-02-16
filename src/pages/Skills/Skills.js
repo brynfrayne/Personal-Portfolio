@@ -15,13 +15,14 @@ import cssLogo from '../../assets/Icons/Css.bba0846c.svg'
 
 export default function Skills() {
   return (
-    <div>
+    <div className='skills'>
+        <h3 className='skills__title'>Tech Stack</h3>
         <div class="skills__imgDiv">
             <div class="skills__imgCard">
                 <img class="skills__img" src={reactLogo} alt=""/>
             </div>
             <div class="skills__imgCard">
-                <img class="skills__img" src={nodeExpressLogo} alt=""/>
+                <img class="skills__img skills__img--node" src={nodeExpressLogo} alt=""/>
             </div>
             <div class="skills__imgCard">
                 <img class="skills__img" src={sassLogo} alt=""/>
