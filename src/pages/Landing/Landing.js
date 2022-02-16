@@ -1,19 +1,41 @@
 import React from 'react'
 import './Landing.scss';
+import TypewriterComponent from 'typewriter-effect';
 
 export default function Landing() {
+  // var typewriter = new Typewriter(landing, {
+  //   loop: true,
+  //   delay: 75,
+  // });
+  
+  // typewriter
+  //   .pauseFor(2500)
+  //   .typeString('A simple yet powerful native javascript')
+  //   .pauseFor(300)
+  //   .deleteChars(10)
+  //   .typeString('<strong>JS</strong> plugin for a cool typewriter effect and ')
+  //   .typeString('<strong>only <span style="color: #27ae60;">5kb</span> Gzipped!</strong>')
+  //   .pauseFor(1000)
+  //   .start();
+
   return (
    
     <div className='landing'>
       
-      {/* <div className='content__container'> */}
+
         <div class="content">
           <h1>Hello, my name is Bryn Frayne</h1>
-          <div className='content__text'>
-            <div className='content__container'><h2>Web Developer.</h2></div>
-          </div>
-          {/* </div> */}
-        {/* </div> */}
+
+            
+           <TypewriterComponent
+           className='typewriter'
+           onInit={typewriter => {
+             typewriter.typeString('A Full-Stack Web Developer.').start();
+           }}
+           />
+
+
+
       </div>
     </div>
   )
