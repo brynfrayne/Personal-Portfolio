@@ -1,6 +1,6 @@
 import InvestLikeTheBest from "./component/InvestLikeTheBest/InvestLikeTheBest";
 import './App.scss';
-import InStock from "./component/InStock/InStock";
+import Landing from "./pages/Landing/Landing";
 import Nav from "./component/Nav/Nav";
 import About from "./pages/About/About";
 import Skills from "./pages/Skills/Skills";
@@ -11,8 +11,8 @@ function App() {
       {/* <Nav/> */}
 
       
-      
-      <About/>
+      <Landing />
+      <About id="about"/>
       <Skills id="skills"/>
       
     {/* <div class="container-lrg">
