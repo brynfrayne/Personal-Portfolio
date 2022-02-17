@@ -3,7 +3,7 @@ import './InvestLikeTheBest.scss';
 
 export default function InvestLikeTheBest() {
   return (
-    <div>
+    <div className='project-card'>
         <h3 class="heading">Invest Like The Best</h3>
         <div>
             <div class="ProseMirror" contenteditable="false" tabindex="0">
@@ -11,9 +11,9 @@ export default function InvestLikeTheBest() {
                 <p><br/></p>
                 <p>I plan on deploying this, as well as adding portfolio tracking for users, where they can make an account and log their portfolio, as well as their watch list.  </p>
                 <p><br/></p>
-                <p>
+                <div className='project-image__container'>
                  <img className='project-image' src="https://cdn.visual.com/images/9368dcb2-1921-49a0-b093-af3da1242b70.png" contenteditable="false" draggable="true"/><img/><br/>
-                </p>
+                </div>
         </div></div>
     </div>
   )
