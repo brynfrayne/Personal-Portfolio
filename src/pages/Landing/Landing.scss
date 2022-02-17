@@ -1,8 +1,7 @@
 
   
   .content {
-    // width: 341px;
-    // max-height:271px;
+    
 
     background-color:rgba(255, 255, 255, 0.8);
     border-radius:.25em;
@@ -14,19 +13,7 @@
     text-align:center;
     top:50%;
     transform:translate(-50%, -50%);
-    // &__text {
-    // // typewriter styling
-    // display: inline-block;
-    // overflow: hidden;
-    // border-right: .15em solid orange;
-    // width: 0;
-    // animation: typing 5s steps(27,end) forwards;
-    // }
   }
-//   @keyframes typing {
-//     from { width: 0 }
-//     to { width: 100% }
-//   }
 
   .Typewriter__wrapper{
       font-weight: 600;

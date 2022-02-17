@@ -3,12 +3,13 @@ import './Skills.scss';
 import reactLogo from '../../assets/Icons/React.c60e0724.svg'
 import nodeExpressLogo from '../../assets/iconsSVG/node-js-white.svg'
 import sassLogo from '../../assets/iconsSVG/sass.svg'
-import mysqlLogo from '../../assets/iconsSVG/mysql-white.svg'
-import expressLogo from '../../assets/iconsSVG/express.svg'
+import mysqlLogo from '../../assets/iconsSVG/mysql-ar21.svg'
+import expressLogo from '../../assets/iconsSVG/370863.svg'
 import jsLogo from '../../assets/Icons/JavaScript.cb6c28ae.svg'
 import htmlLogo from '../../assets/Icons/HTML.8af6948d.svg'
 import gitLogo from '../../assets/Icons/Git.fff69573.svg'
 import cssLogo from '../../assets/Icons/Css.bba0846c.svg'
+import axiosLogo from '../../assets/iconsSVG/axios.svg';
 
 
 
@@ -45,6 +46,9 @@ export default function Skills() {
             </div>
             <div class="skills__imgCard">
                 <img class="skills__img" src={cssLogo} alt=""/>
+            </div>
+            <div class="skills__imgCard">
+                <img class="skills__img" src={axiosLogo} alt=""/>
             </div>
         </div>
     </div>

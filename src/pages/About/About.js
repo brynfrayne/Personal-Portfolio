@@ -1,10 +1,17 @@
 import React from 'react'
 import './About.scss';
+import headshot from '../../assets/91647976.jpeg';
+
 
 export default function About() {
   return (
     <div>
-        <h4 className="subtitle">Full Stack Web Developer</h4>
+       <div class="headshot__box">
+          {/* <img className="headshot" src="https://cdn.visual.com/images/5b1980c9-084c-4a27-adec-3058e4340571.jpg" alt="" /> */}
+          <img className="headshot" src={headshot} alt="" />
+
+        </div>
+        {/* <h4 className="subtitle">Full Stack Web Developer</h4>
     <h1>Bryn Frayne</h1>
     <nav class="social-links">
       <ul class="social-links__list">
@@ -15,7 +22,7 @@ export default function About() {
           <a className="social-links__link" target="_blank" href="https://www.linkedin.com/in/brynfrayne"> LinkedIn </a>
         </li>
       </ul>
-    </nav>
+    </nav> */}
     {/* <h2 class="mt30 mb30 subheading"> */}
       <div>
         <div class="bio" contenteditable="false" tabindex="0">
