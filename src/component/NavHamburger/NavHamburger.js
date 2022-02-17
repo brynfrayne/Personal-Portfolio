@@ -3,7 +3,7 @@ import React from 'react'
 // import {Navbar, Container, NavDropdown} from 'react-bootstrap'
 import './Nav.scss';
 
-export default function Nav() {
+export default function NavHamburger() {
   return (
 <nav role="navigation">
   <div id="menuToggle">

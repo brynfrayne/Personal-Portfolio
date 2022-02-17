@@ -16,27 +16,7 @@ body {
         margin: 2rem;
     }
 }
-.nav {
-    display: flex;
-    justify-content: space-around;
-    width: 60%;
-    margin: 0 auto;
-    position: fixed;
-    padding: .5rem;
-    z-index: 10;
-    width: 100%;
 
-    background-color: black;
-    &__links {
-        text-decoration: none;
-        color: white;
-        letter-spacing: -1px;
-        padding: .25rem;
-        // border: 1px solid black;
-        // border-radius: .125rem;
-        // background-color: white;
-    }
-}
 
 .headshot{
     width:25vw;
