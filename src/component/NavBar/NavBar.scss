@@ -1,6 +1,7 @@
 .nav {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     width: 60%;
     margin-bottom: 1rem;
     // position: fixed;
@@ -17,5 +18,12 @@
         // border: 1px solid black;
         // border-radius: .125rem;
         // background-color: white;
+        &--social-icons {
+            display: flex;
+        }
     }
+}
+.social-icon {
+    width: 1.625rem;
+    // background-color: black;
 }
