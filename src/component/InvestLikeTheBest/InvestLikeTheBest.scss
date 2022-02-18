@@ -1,10 +1,12 @@
 .project-image {
-    width:60%;
+    width:14rem;
     display: flex;
     justify-content: center;
     &__container {
         display: flex;
         justify-content: center;
+        border-top: 1px solid lightgray;
+        padding-top:.75rem;
     }
 }
 .project-card {
@@ -13,5 +15,29 @@
     padding: 1.5rem;
     margin: 2rem;
     background-color: white;
+    letter-spacing: -1px;
+    &__title {
+        margin-bottom: 0;
+    }
+    &__header {
+        padding-bottom: .75rem;
+        border-bottom: 1px solid lightgray;
+    }
     
+}
+.github {
+    &__box {
+    display: flex;
+    align-items: center;
+    
+    }
+    &__link {
+        text-decoration: none;
+        color: black;
+    }
+    &__icon {
+        width: 2rem;
+        position: relative;
+        top:.5rem;
+    }
 }
