@@ -1,0 +1,13 @@
+@use '../../styles/partials/mixins' as*;
+
+.projects {
+    @include tablet {
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
+.project-card {
+    @include tablet {
+        width: 50%;
+    }
+}
