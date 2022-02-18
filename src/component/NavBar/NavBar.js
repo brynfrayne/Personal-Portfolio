@@ -4,7 +4,6 @@ import emailLogo from '../../assets/Icons/blackEmail.png';
 import linkedinLogo from '../../assets/Icons/linkedinBlack.png';
 import gitLogo from '../../assets/Icons/gitBlack.png';
 import bfLogo from '../../assets/Icons/bfLogoBig.png';
-import { Link } from 'react-router-dom';
 
 export default function NavBar() {
   return (

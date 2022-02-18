@@ -1,6 +1,5 @@
 import React from 'react'
 import githubLogo from '../../assets/Icons/github.png';
-import gmailLogo from '../../assets/Icons/gmail.png';
 import linkedinLogo from '../../assets/Icons/linkedin.png';
 import './Contact.scss';
 import { NavLink } from 'react-router-dom';

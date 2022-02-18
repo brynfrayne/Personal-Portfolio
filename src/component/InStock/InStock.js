@@ -17,7 +17,7 @@ export default function InStock() {
             <p>Working on a team of 4 remote developers, we created this app in a week's time, using an agile framework, Jira boards, and Github version control.</p>
             
             <div className='project-image__container'>
-              <img className='project-image' src="https://cdn.visual.com/images/512bc250-e6b8-4d68-ab73-af254ea89dbc.png" contenteditable="false" draggable="true"/><img/><br/>
+              <img className='project-image' src="https://cdn.visual.com/images/512bc250-e6b8-4d68-ab73-af254ea89dbc.png" alt=''/><br/>
             </div>
         </div>
         

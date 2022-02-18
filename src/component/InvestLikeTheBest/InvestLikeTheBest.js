@@ -19,7 +19,7 @@ export default function InvestLikeTheBest() {
                 <p>I plan on deploying this, as well as adding portfolio tracking for users, where they can make an account and log their portfolio, as well as their watch list.  </p>
                 
                 <div className='project-image__container'>
-                 <img className='project-image' src="https://cdn.visual.com/images/9368dcb2-1921-49a0-b093-af3da1242b70.png" contenteditable="false" draggable="true"/><img/><br/>
+                 <img className='project-image' src="https://cdn.visual.com/images/9368dcb2-1921-49a0-b093-af3da1242b70.png" alt='' /><br/>
                 </div>
             </div>
         
