@@ -15,6 +15,10 @@
         font-size: 2rem;    
         letter-spacing: -1px;
     }
+    &__text {
+        font-weight: 200;
+        letter-spacing: -.5px;
+    }
 }
 .about {
     display: flex;
