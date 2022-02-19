@@ -19,7 +19,7 @@ export default function Skills() {
     <div className='skills'>
         
         <div class="skills__imgDiv">
-        <h3 className='skills__title'>Tech Stack</h3>
+        <h3 className='skills__title page-name'>Tech Stack</h3>
             <div class="skills__imgCard">
                 <img class="skills__img" src={reactLogo} alt=""/>
             </div>

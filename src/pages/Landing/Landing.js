@@ -10,7 +10,7 @@ export default function Landing() {
       
 
         <div class="content">
-          <h1>Hello, my name is Bryn Frayne</h1>
+          <h1>Hello, my name is <span className='page-name'>Bryn Frayne</span></h1>
 
             
            <TypewriterComponent

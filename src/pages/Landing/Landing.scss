@@ -1,8 +1,13 @@
 
-  
+  .page-name {
+    background: #020103;
+    // background: -webkit-linear-gradient(to bottom right, #020103 21%, #9752FF 59%);
+    background: -webkit-linear-gradient(to right, #5f2c82, #49a09d); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #5f2c82, #49a09d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
   .content {
-    
-
     background-color:rgba(255, 255, 255, 0.8);
     border-radius:.25em;
     box-shadow:0 0 .25em rgba(0,0,0,.25);
