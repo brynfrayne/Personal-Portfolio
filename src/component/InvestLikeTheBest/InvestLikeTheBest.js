@@ -1,6 +1,7 @@
 import React from 'react'
 import './InvestLikeTheBest.scss';
 import gitLogo from '../../assets/Icons/gitblue.png';
+import linkIcon from '../../assets/Icons/linkIcon.png';
 
 
 export default function InvestLikeTheBest() {
@@ -10,6 +11,7 @@ export default function InvestLikeTheBest() {
         <h3 class="project-card__title page-name">Invest Like The Best</h3>
         <div className='github__box'>
           <a className='github__link' href='https://www.github.com/brynfrayne/investlikethebest'><img  className='github__icon'src={gitLogo} alt="" />/InvestLikeTheBest</a>
+          <a className='github__link' href='https://invest-like-the-best.vercel.app/'><img  className='github__icon'src={linkIcon} alt="" />InvestLikeTheBest</a>
         </div>
       </div>
         
